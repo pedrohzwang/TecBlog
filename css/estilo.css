@@ -13,6 +13,9 @@ body{
     background-color: #FFF;
     border-bottom: 1px solid #d8d8d8;
     height: 45px;
+    position: fixed;
+    width: 100%;
+    top: 0;
 }
 
 #area{
@@ -60,7 +63,7 @@ a:active{
 #area-principal{
     width: 720px;
     height: 300px;
-    margin: 10px auto;    
+    margin: 55px auto;    
 }
 
 .titulopostagem{
@@ -70,4 +73,25 @@ a:active{
 #postagem{
     background-color: #FFF;
     padding: 10px;
+    margin-bottom: 10px;
+}
+
+.data-postagem{
+    font-size: 14px;
+    border-bottom: 1px solid #f4f4f4;
+    display: block;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.img-postagem{
+    float: left;
+    margin: 0 10px 10px 0;
+}
+
+.postado{
+    border-left: 5px solid #d8d8d8;
+    padding-left: 5px;
+    display: block;
+    margin-top: 10px;
 }
